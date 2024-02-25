@@ -33,15 +33,13 @@ Start the Django development server:
 ```
 python manage.py runserver
 ```
-Visit http://127.0.0.1:8000/ in your web browser to access the application.
+Visit [http://127.0.0.1:8000/api/text_extractor](http://127.0.0.1:8000/api/extracted_text/)  in your web browser to access the application.
 
-Upload a PDF file using the provided form.
+- Upload a Image file using the provided form.
+- The application extracts key-value pairs and displays the results.
+-The extracted data is saved to a CSV file in the data/save directory.
 
-The application extracts key-value pairs and displays the results.
-
-The extracted data is saved to a CSV file in the data/save directory.
-
-Project Structure
+# Project Structure
 text_extractor: Django app containing the main functionality.
 
 # Functions
