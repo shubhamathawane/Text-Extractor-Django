@@ -1,0 +1,24 @@
+# Django project files and directories
+/ocr_project/local_settings.py
+/ocr_project/static/
+/ocr_project/tmp/
+/ocr_project/media/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+
+# Test coverage reports
+.coverage
+htmlcov/
+
+# Compiled static files (CSS, JavaScript, etc.)
+staticfiles/
+
+# Database files
+db.sqlite3
+
+# IDE / editor files
+.idea/
+.vscode/
